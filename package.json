@@ -1,11 +1,11 @@
 {
   "name": "@cnocon/react-github-stats-card",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -19,7 +19,7 @@
     "presets": [
       "@babel/preset-react"
     ]
-  },  
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

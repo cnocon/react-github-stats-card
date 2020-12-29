@@ -117,7 +117,7 @@ export default function Card({...props}) {
   const stargazers = <li>Starred <b>{stargazersCount}</b> {pluralizer(parseInt(stargazersCount), `time`)}</li>;
   const watchers = <li><b>{watchersCount}</b> {pluralizer(parseInt(watchersCount), `watcher`)}</li>;
   const followers = <li>Followed by <b>{user.followers}</b> {pluralizer(parseInt(user.followers), `member`)}</li>;
-  const following = <li>Following <b>{user.following}</b> ${pluralizer(parseInt(user.following), `member`)}</li>;
+  const following = <li>Following <b>{user.following}</b> {pluralizer(parseInt(user.following), `member`)}</li>;
   const openIssues = <li><b>{openIssuesCount}</b>&nbsp;{pluralizer(parseInt(openIssuesCount), `open issue`)}</li>;
   const company = !user.company ? `` : <p>Currently at {user.company}</p>;
   const location = !user.location ? `` : <p>{user.location}</p>;

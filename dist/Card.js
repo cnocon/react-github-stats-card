@@ -121,7 +121,7 @@ export default function Card({ ...props
   const stargazers = /*#__PURE__*/React.createElement("li", null, "Starred ", /*#__PURE__*/React.createElement("b", null, stargazersCount), " ", pluralizer(parseInt(stargazersCount), `time`));
   const watchers = /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, watchersCount), " ", pluralizer(parseInt(watchersCount), `watcher`));
   const followers = /*#__PURE__*/React.createElement("li", null, "Followed by ", /*#__PURE__*/React.createElement("b", null, user.followers), " ", pluralizer(parseInt(user.followers), `member`));
-  const following = /*#__PURE__*/React.createElement("li", null, "Following ", /*#__PURE__*/React.createElement("b", null, user.following), " $", pluralizer(parseInt(user.following), `member`));
+  const following = /*#__PURE__*/React.createElement("li", null, "Following ", /*#__PURE__*/React.createElement("b", null, user.following), " ", pluralizer(parseInt(user.following), `member`));
   const openIssues = /*#__PURE__*/React.createElement("li", null, /*#__PURE__*/React.createElement("b", null, openIssuesCount), "\xA0", pluralizer(parseInt(openIssuesCount), `open issue`));
   const company = !user.company ? `` : /*#__PURE__*/React.createElement("p", null, "Currently at ", user.company);
   const location = !user.location ? `` : /*#__PURE__*/React.createElement("p", null, user.location);

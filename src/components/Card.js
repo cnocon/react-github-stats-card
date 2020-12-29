@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import('./Card.css');
 
 const pluralizer = (number, string) => {
   let newString = string.slice();

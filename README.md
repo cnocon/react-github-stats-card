@@ -2,7 +2,7 @@
 
 Pass a [GitHub username](https://docs.github.com/en/free-pro-team@latest/github/setting-up-and-managing-your-github-user-account/remembering-your-github-username-or-email) and a boolean for whether or not you want the theme to be used, and get this:
 
-![Widget Screenshot](react-github-stat-card-screenshot.png)
+![Widget Screenshot](stat-card-preview.png)
 
 ## Installation
 

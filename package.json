@@ -16,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/component -d dist --copy-files"
+    "publish:npm": "rm -rf dist && mkdir dist && babel src/components -d dist --copy-files"
   },
   "babel": {
     "presets": [

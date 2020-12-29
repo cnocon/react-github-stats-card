@@ -1,6 +1,6 @@
 {
   "name": "@cnocon/react-github-stats-card",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "dependencies": {
     "react": "^16.13.1",
@@ -15,6 +15,7 @@
     "eject": "react-scripts eject",
     "publish:npm": "rm -rf dist && mkdir dist && babel src/components -d dist --copy-files"
   },
+  "license": "MIT",
   "babel": {
     "presets": [
       "@babel/preset-react"

@@ -1,6 +1,6 @@
 {
   "name": "@cnocon/react-github-stats-card",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false,
   "dependencies": {
     "react": "^16.13.1",

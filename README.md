@@ -28,6 +28,6 @@ function myComponent() {
 import Card from '@cnocon/react-github-stats-card/dist/Card';
 
 function myComponent() {
-  return <Card username='cnocon' theme={true} accessToken=HIDDEN_ACCESS_TOKEN'/>
+  return <Card username='cnocon' theme={true} accessToken=MY_ACCESS_TOKEN/>
 }
 ```

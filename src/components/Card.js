@@ -81,7 +81,7 @@ export default function Card({...props}) {
         'method': 'GET',
         'headers': {
           'Accept': 'application/vnd.github.v3+json',
-          'user-agent': `@cnocon/react-github-stats-card`,
+          'user-agent': `react-github-stats-card`,
           'authorization': `token ${accessToken}`
         }
       };
@@ -90,7 +90,7 @@ export default function Card({...props}) {
         'method': 'GET',
         'headers': {
           'Accept': 'application/vnd.github.v3+json',
-          'user-agent': `@cnocon/github-stats-card`
+          'user-agent': `github-stats-card`
         }
       };
     }
